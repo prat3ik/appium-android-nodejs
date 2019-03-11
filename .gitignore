@@ -1,5 +1,9 @@
 # Object file
 *.o
+*.DS_Store
 
 # Ada Library Information
 *.ali
+
+package-lock.json
+node_modules/
