@@ -11,8 +11,7 @@ const desiredCaps = {
   platformName: 'Android',
   platformVersion: '8.0',
   deviceName: 'c4e3f3cd',
-  app: '../app/sampleApp.apk'
-  // app: __dirname + '/../app/sampleApp.apk'
+  app: __dirname + '/../app/sampleApp.apk'
 }
 
 var assert = require('assert');
