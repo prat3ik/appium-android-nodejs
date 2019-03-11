@@ -6,7 +6,6 @@ var wd = require('wd'),
         port: 4723
     });
 
-
 const desiredCaps = {
   platformName: 'Android',
   platformVersion: '8.0',
@@ -17,26 +16,19 @@ const desiredCaps = {
 var assert = require('assert');
 describe('AWSDeviceFarmReferenceAppTest', function () {
 
-
     before(function () {
         this.timeout(300 * 1000);
-        
-        
-
         return driver.init(desiredCaps);
     });
-
 
     after(function () {
         console.log("quitting");
     });
 
-
     it('test_app_is_loaded', async function () {
         const element = await driver.elementById("com.amazonaws.devicefarm.android.referenceapp:id/homepage_headline");
         expect(element).to.exist;
     });
-
 
     it('test_click_on_home_6_times', async function () {
         this.timeout(300 * 1000);
