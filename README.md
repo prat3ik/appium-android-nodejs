@@ -9,9 +9,6 @@ This project will test the simple android application using Appium, and here I a
 
 All above dependencies are mentioned in **package.json**
 
-## Directory Structure:
-![](http://drive.google.com/uc?export=view&id=1Kh_gPLNZ0vQMulK5r6eReMd451s_d-NG)
-
 ## Installation
 ### Prerequisites:
 * Make sure valid Android device is connected properly.
